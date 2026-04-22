@@ -1,0 +1,9 @@
+
+
+#this will be the files that will be ignored
+#nothing here will be tracked by git
+__pycache__/
+*.pyc
+extracted_data/
+.ipynb_checkpoints/
+data/processed/
