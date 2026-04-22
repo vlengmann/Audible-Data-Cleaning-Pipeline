@@ -30,7 +30,7 @@ This project details a data pipeline centered on data ingestion via zip files an
 This pipeline follows the **Factory design pattern** to separate ingestion and cleaning into 
 modular, interchangeable components. An abstract base class defines the contract for each layer, 
 with concrete implementations handling the specifics — `ZipDataIngestor` for extracting and 
-loading data from compressed files, and `AudibleDataCleaner` for standardizing the dataset. 
+loading data from compressed files, and `AudibleDataCleaner` for standardizing the dataset. EDA was further compiled using `ydata` Profile which pointed to inconsistencies in the data and missing values.
 Cleaning steps included parsing a composite `stars` column into separate `rating` and 
 `rating_count` fields, converting a formatted time string into numeric minutes, stripping 
 prefixes from `author` and `narrator` fields, and enforcing consistent data types across 
