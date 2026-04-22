@@ -37,6 +37,7 @@ prefixes from `author` and `narrator` fields, and enforcing consistent data type
 all columns. The cleaned output is saved to `data/processed/` for downstream analysis.
 
 ## Project Structure
+
 Audible/
 ├── data/              # Raw data
 ├── notebooks/         # Exploratory data analysis
