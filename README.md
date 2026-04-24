@@ -48,17 +48,21 @@ Audible/
 │       └── data_cleaner.py    # Cleaning layer
 ├── environment.yml    # Conda environment
 └── README.md
-## Pipeline Overview
-Raw ZIP -> Ingestor -> Raw DataFrame -> Cleaner -> Cleaned and Final CSV
 
+## Pipeline Overview
+Raw ZIP -> Ingestor -> Raw DataFrame -> Cleaner -> Cleaned and Final CSV -> AWS S3 -> AWS Quicksight
+ 
 ## Key Features
 - Factory design pattern for extensible ingestion and cleaning
 - Handles ZIP extraction automatically
 - Cleans and standardizes 87,000+ Audible records
 - Outputs cleaned CSV ready for analysis or visualization
 
+## Dashboard
+[View Dashboard PDF](images/Audible Quicksight Dashboard.pdf)
+
 ## Tech Stack
-Python, pandas, conda
+Python, pandas, conda, AWS S3, AWS Quicksight
 
 ## How to Run
 ```bash
