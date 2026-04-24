@@ -1,0 +1,14 @@
+{
+	"fileLocations":[
+		{
+			"URIs": [
+				"s3://audible-data-pipeline-vleng/audible_cleaned.csv"
+			]
+		}
+	],
+	"globalUploadSettings": {
+		"format": "CSV",
+		"delimiter": ",",
+		"containsHeader": "true"
+	}
+}
