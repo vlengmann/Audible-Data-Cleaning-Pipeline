@@ -22,7 +22,7 @@ An end to end production-style data pipeline for ingesting and cleaning Audible 
 
 ## Project Overview
 
-This project details a data pipeline centered on data ingestion via zip files and cleaning of files. Raw data is extracted from ZIP files cleaned, standardized, stored in AWS S3 and visualized usign AWS Quicksight.
+This project details a data pipeline centered on data ingestion via zip files and cleaning of files. Raw data is extracted from ZIP files, then cleaned, standardized, stored in AWS S3 and visualized using AWS Quicksight.
 
 ## Method and Analysis
 
