@@ -38,6 +38,7 @@ all columns. The cleaned output is saved to `data/processed/` for downstream ana
 
 ## Project Structure
 
+```
 Audible/
 ├── data/              # Raw data
 ├── notebooks/         # Exploratory data analysis
@@ -48,6 +49,7 @@ Audible/
 │       └── data_cleaner.py    # Cleaning layer
 ├── environment.yml    # Conda environment
 └── README.md
+```
 
 ## Pipeline Overview
 Raw ZIP -> Ingestor -> Raw DataFrame -> Cleaner -> Cleaned and Final CSV -> AWS S3 -> AWS Quicksight
@@ -59,7 +61,7 @@ Raw ZIP -> Ingestor -> Raw DataFrame -> Cleaner -> Cleaned and Final CSV -> AWS 
 - Outputs cleaned CSV ready for analysis or visualization
 
 ## Dashboard
-[View Dashboard PDF](images/Audible Quicksight Dashboard.pdf)
+[View Dashboard PDF](images/Audible%20Quicksight%20Dashboard.pdf)
 
 ## Tech Stack
 Python, pandas, conda, AWS S3, AWS Quicksight
